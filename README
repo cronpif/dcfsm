@@ -1,0 +1,33 @@
+DCFSM on Android
+
+this a package contain binaries and scripts  for make you android turn to
+scrypt miner for cryptocurency which support scrypt.
+to make you android be a rig for mine,  you android will be focused for mining, no another task can runing on you phone because you phone are running script.
+
+Do With You Own Risk.
+
+If you want to turn back you phone, MINE_H on dcaminer.sh set 0 with adb shell on recovery mode , su option granted for adb shell, or connect with same wifi then remote your devices on port RSH_P number.
+
+PARAMETER CONF FOR DCAMINER.SH  :
+
+URL_MINE  pool address(NULL)
+AUTH_PL  worker user:pass(NULL:NULL)
+TH_C  thread on cpu (def: 8)
+TOR_INS tor mode  (def: 1)
+WIFI_AP wireless access point ssid(def: NULL)
+MINE_H mode for auto mining (def: 1)
+RSH_C remote shell mode (def: 1)
+RSH_P remote port
+
+MAINTENANCE.SH is script for clean log , maintenance automatic by script via crontab.
+
+SCHELUDE.SH is a script for overclocking schlude on CPU for force minning. progress and durability of hardware.
+consider with skyjoule.
+
+TWEAK.SH is a script for boost performance from default setting.
+
+W.SH is a script for wireless auto connect.
+
+HOMEPAGE : github.com/cronpif/dcfsm
+
+- cronpif
